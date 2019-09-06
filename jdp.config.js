@@ -25,14 +25,14 @@ let configs = {
         psdWidth: 750
     },
     cdn: {
-        online: '//plus-static.jd.com',
-        beta: '//beta-plus-static.jd.com'
+        online: '',
+        beta: ''
     },
     git: {
-        url: 'http://git.jd.com/plus-h5-static/plus-h5-static.git',
-        branch: 'dev',
+        url: '',
+        branch: '',
         sourseDir:dir,
-        gitDirName:'plus-h5-static'
+        gitDirName:''
     }
 };
 
