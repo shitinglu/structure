@@ -5,7 +5,7 @@
 const dir = 'dirName';
 
 // 版本号
-const version = 20190904;
+const version = 20190930;
 
 let configs = {
     routeConfig: {
