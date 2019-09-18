@@ -1,3 +1,4 @@
+// 引入样式
+import '../sass/index.scss';
 
-
-console.log('这是一个入口JS');
+console.log('欢迎使用jdp 开发');

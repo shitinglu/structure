@@ -1,6 +1,4 @@
 
-
-
 // 目录
 const dir = 'dirName';
 

@@ -1,0 +1,25 @@
+
+// 基础默认样式 ,通用的 mixin,公用头尾样式
+@import "_init","_mixin","_header";
+
+.wrap{
+  display: block;
+  @include flex-box()
+  @include align-center()
+  min-height: 800px;
+  text-align: center;
+
+  .img-plus{
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .font-plus{
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    line-height: 80px;
+    font-size: 40px;
+  }
+}
